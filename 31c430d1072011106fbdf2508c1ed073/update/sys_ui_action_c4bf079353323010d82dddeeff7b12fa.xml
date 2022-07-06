@@ -6,7 +6,9 @@
         <client_script_v2><![CDATA[function onClick(g_form) {
 
 }]]></client_script_v2>
-        <comments>Unlink the selected attached Incident record(s) from Problem.</comments>
+        <comments>Unlink the selected attached Incident record(s) from problem&#13;
+gittesting&#13;
+</comments>
         <condition>RP.isRelatedList() &amp;&amp; (parent.sys_class_name + "" === "problem") &amp;&amp; (gs.getProperty("problem.role.relate_closed_incidents") === "problem_coordinator")</condition>
         <form_action>false</form_action>
         <form_button>false</form_button>
@@ -42,7 +44,7 @@ current.update();]]></script>
         <sys_domain>global</sys_domain>
         <sys_domain_path/>
         <sys_id>c4bf079353323010d82dddeeff7b12fa</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>Remove Incident</sys_name>
         <sys_overrides/>
         <sys_package display_value="Problem Management Best Practice - Madrid" source="com.snc.best_practice.problem.madrid">358cc8fd21d20110a866589604c20d39</sys_package>
@@ -50,7 +52,7 @@ current.update();]]></script>
         <sys_scope display_value="gitests">31c430d1072011106fbdf2508c1ed073</sys_scope>
         <sys_update_name>sys_ui_action_c4bf079353323010d82dddeeff7b12fa</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-06 13:29:50</sys_updated_on>
+        <sys_updated_on>2022-07-06 13:34:56</sys_updated_on>
         <table>incident</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
